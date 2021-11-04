@@ -71,17 +71,18 @@ section{
     letter-spacing: 0.1rem;
 }
 
-.aquarela-img img{
-    width: 490px;
-    height: 280px;
-    margin: 0 0 3% 1.5%;
-}
-
 .aquarela-img{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.aquarela-img img{
+    width: 490px;
+    height: 280px;
+    margin: 0 0 3% 1.5%;
+    position: relative;
 }
 
 .veja-mais h4{
