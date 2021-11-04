@@ -13,8 +13,11 @@
 
 <body>
     <header>
-        <nav>
-            <ul class="nav-header">
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul class="nav-header" id="menu" role="menu">
                 <a href="#">
                     <li>Portfolio</li>
                 </a>
@@ -81,6 +84,7 @@
             </nav>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
